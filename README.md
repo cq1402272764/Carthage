@@ -55,6 +55,7 @@ git "https://github.com/AFNetworking/AFNetworking.git"
 3、配置项目：
 * 打开项目，点击Target -> Build Phases -> Link Library with Libraries选择Carthage/Build目录中导入的framework
 * 添加编译的脚本（该脚本文件保证在提交归档时会对相关文件和dSYMs进行复制）
+
 1）点击Build Phases，点击“+” -> New Run Script Phase
 ![image](https://github.com/cq1402272764/Carthage/blob/master/Res/1.png)
 
