@@ -5,16 +5,16 @@
 * 限制：仅支持iOS8.0+，不能用来针对iOS8以前的系统版本进行开发
 Carthage和cocoapods区别
 
-* cocoapods的项目是高度集中的，而carthage更灵活强调尽可能将任务委托给Xcode和Git
-* cocoapods在使用中会自动创建和更新workspace、依赖和Pod项目并进行整合
-* Carthage在使用中不需要创建和继承相应的workspace和project，只需要依赖打包好的framework文件即可
-* cocoapods相对来说功能要比Carthage多很多，因此也更复杂，而Cocoapods配置简单项目干净
-* Cocoapods有一个中心仓库，而Carthage是去中心化的，没有中心服务器也就避免了可能因中心节点错误而带来的失败，即Carthage每次配置和更新环境，只会去更新具体的库，时间更快
-* 想让自己的第三方库支持Carthage比让其支持cocoapods更加的简单
-* Carthage存在的一些缺陷
-    * 库依然不如CocoaPods丰富
-    * 仅支持iOS8+
-    * 在使用第三方库的过程中无法查看源码总结：
+    * cocoapods的项目是高度集中的，而carthage更灵活强调尽可能将任务委托给Xcode和Git
+    * cocoapods在使用中会自动创建和更新workspace、依赖和Pod项目并进行整合
+    * Carthage在使用中不需要创建和继承相应的workspace和project，只需要依赖打包好的framework文件即可
+    * cocoapods相对来说功能要比Carthage多很多，因此也更复杂，而Cocoapods配置简单项目干净
+    * Cocoapods有一个中心仓库，而Carthage是去中心化的，没有中心服务器也就避免了可能因中心节点错误而带来的失败，即Carthage每次配置和更新环境，只会去更新具体的库，时间更快
+    * 想让自己的第三方库支持Carthage比让其支持cocoapods更加的简单
+    * Carthage存在的一些缺陷
+        * 库依然不如CocoaPods丰富
+        * 仅支持iOS8+
+        * 在使用第三方库的过程中无法查看源码总结：
 
 cocoapods的方法更容易使用，而Carthage更灵活且对项目没有侵入性
 
