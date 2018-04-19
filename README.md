@@ -24,28 +24,29 @@ Carthage安装
 * 直接下载Carthage.pkg安装包，安装运行
 * 如果使用的Xcode7.0+版本，那么可以使用下面的方法来安装
      *  安装home-brew
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+        * $ /usr/bin/ruby -e
+        * "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
      * 升级brew
-$ brew update
+        * $ brew update
      * 使用brew来安装
-$ brew install Carthage
+        * $ brew install Carthage
 ![image](https://github.com/cq1402272764/Carthage/blob/master/Res/0.png)
 
 * 查看版本
-$ Carthage version
+    * $ Carthage version
 Carthage使用
 
 1、命令创建
 * 先进入到项目所在的文件夹
-$ cd ~/Path/Project
+    * $ cd ~/Path/Project
 * 创建一个空的Carthage文件
-$ touch Cartfile
+     * $ touch Cartfile
 * 编辑cartfile文件，例如要安装AFN框架
 git "https://github.com/AFNetworking/AFNetworking.git"
 * 保存并关闭cartfile文件，使用cartfile安装框架
-$ Carthage update --platform iOS
+     * $ Carthage update --platform iOS
 * 打开Carthage查看生成的文件目录
-$ open Carthage
+     * $ open Carthage
 
 2、文件目录说明：
 * || Carthage／Checkouts目录：从github获取的源代码
@@ -60,7 +61,7 @@ $ open Carthage
 
 2）添加脚本
 /usr/local/bin/Carthage copy-frameworks
-3）添加“Input Files”     $(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework
+3）添加“Input Files”      $(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework
 ![image](https://github.com/cq1402272764/Carthage/blob/master/Res/2.png)
 
 
@@ -69,12 +70,15 @@ $ open Carthage
 #import <AFNetworking/AFNetworking.h>
 
 卸载Carthage
-* 卸载Carthage：$ brew uninstall Carthage
+* 卸载Carthage：
+     * $ brew uninstall Carthage
 * 更新第三方框架：
-* 更新多个框架：修改Carfile文件，并从新执行 $ Carthage update
-* 更新某个框架：$ Carthage update 具体的框架名称
+* 更新多个框架：修改Carfile文件，并从新执行
+     * $ Carthage update
+* 更新某个框架：
+     * $ Carthage update 具体的框架名称
 * Carthage的工作过程说明
-* ① 创建一个Cartfile文件，在该文件中列出您想使用的框架
-* ② 运行Carthage，获取并编译Cartfile文件中列出的框架
-* ③ 把框架的二进制文件配置到项目中
+    * ① 创建一个Cartfile文件，在该文件中列出您想使用的框架
+    * ② 运行Carthage，获取并编译Cartfile文件中列出的框架
+    * ③ 把框架的二进制文件配置到项目中
 
