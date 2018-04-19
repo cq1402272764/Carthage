@@ -3,7 +3,7 @@
 * 特点：不会自动修改项目文件和生成配置，把对项目结构和设置的控制权交给用户，需要用户自行配置。
 * 原理：自动将第三方框架编程为Dynamic framework(动态库)
 * 限制：仅支持iOS8.0+，不能用来针对iOS8以前的系统版本进行开发
-Carthage和cocoapods区别
+* Carthage和cocoapods区别
 
     * cocoapods的项目是高度集中的，而carthage更灵活强调尽可能将任务委托给Xcode和Git
     * cocoapods在使用中会自动创建和更新workspace、依赖和Pod项目并进行整合
