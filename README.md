@@ -59,9 +59,9 @@ git "https://github.com/AFNetworking/AFNetworking.git"
 1）点击Build Phases，点击“+” -> New Run Script Phase
 ![image](https://github.com/cq1402272764/Carthage/blob/master/Res/1.png)
 
-
 2）添加脚本
 * /usr/local/bin/Carthage copy-frameworks
+
 3）添加“Input Files”
 * $(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework
 ![image](https://github.com/cq1402272764/Carthage/blob/master/Res/2.png)
