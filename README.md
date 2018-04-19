@@ -1,4 +1,4 @@
-# Carthage-的使用实例以及教程
+ # Carthage-的使用实例以及教程
 * 介绍：Carthage类似于cocoapods，是一个第三方库框架管理工具。
 * 特点：不会自动修改项目文件和生成配置，把对项目结构和设置的控制权交给用户，需要用户自行配置。
 * 原理：自动将第三方框架编程为Dynamic framework(动态库)
@@ -19,7 +19,7 @@
 cocoapods的方法更容易使用，而Carthage更灵活且对项目没有侵入性
 
 
-Carthage安装
+## Carthage安装
 
 * 直接下载Carthage.pkg安装包，安装运行
 * 如果使用的Xcode7.0+版本，那么可以使用下面的方法来安装
@@ -34,7 +34,7 @@ Carthage安装
 
 * 查看版本
     * $ Carthage version
-Carthage使用
+    ## Carthage使用
 
 1、命令创建
 * 先进入到项目所在的文件夹
@@ -60,16 +60,17 @@ git "https://github.com/AFNetworking/AFNetworking.git"
 
 
 2）添加脚本
-/usr/local/bin/Carthage copy-frameworks
-3）添加“Input Files”      $(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework
+* /usr/local/bin/Carthage copy-frameworks
+3）添加“Input Files”
+* $(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework
 ![image](https://github.com/cq1402272764/Carthage/blob/master/Res/2.png)
 
 
 
 4、在项目中使用第三方库
-#import <AFNetworking/AFNetworking.h>
+* #import <AFNetworking/AFNetworking.h>
 
-卸载Carthage
+## 卸载Carthage
 * 卸载Carthage：
      * $ brew uninstall Carthage
 * 更新第三方框架：
