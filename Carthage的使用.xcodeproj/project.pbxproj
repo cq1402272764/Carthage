@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4241D1E02085F41C00DE6CCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4241D1DF2085F41C00DE6CCB /* AppDelegate.m */; };
+		4241D1E32085F41C00DE6CCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4241D1E22085F41C00DE6CCB /* ViewController.m */; };
+		4241D1E62085F41C00DE6CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4241D1E42085F41C00DE6CCB /* Main.storyboard */; };
+		4241D1E82085F41C00DE6CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4241D1E72085F41C00DE6CCB /* Assets.xcassets */; };
+		4241D1EB2085F41C00DE6CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4241D1E92085F41C00DE6CCB /* LaunchScreen.storyboard */; };
+		4241D1EE2085F41C00DE6CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4241D1ED2085F41C00DE6CCB /* main.m */; };
+		4241D1F82085F41D00DE6CCB /* Carthage___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4241D1F72085F41D00DE6CCB /* Carthage___Tests.m */; };
+		4241D2032085F41D00DE6CCB /* Carthage___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4241D2022085F41D00DE6CCB /* Carthage___UITests.m */; };
+		4241D2252088225A00DE6CCB /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4241D2242088225A00DE6CCB /* AFNetworking.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4241D1F42085F41D00DE6CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4241D1D32085F41B00DE6CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4241D1DA2085F41C00DE6CCB;
+			remoteInfo = "Carthage的使用";
+		};
+		4241D1FF2085F41D00DE6CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4241D1D32085F41B00DE6CCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4241D1DA2085F41C00DE6CCB;
+			remoteInfo = "Carthage的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4241D1DB2085F41C00DE6CCB /* Carthage的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carthage的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4241D1DE2085F41C00DE6CCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4241D1DF2085F41C00DE6CCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4241D1E12085F41C00DE6CCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4241D1E22085F41C00DE6CCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4241D1E52085F41C00DE6CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4241D1E72085F41C00DE6CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4241D1EA2085F41C00DE6CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4241D1EC2085F41C00DE6CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4241D1ED2085F41C00DE6CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4241D1F32085F41D00DE6CCB /* Carthage的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carthage的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4241D1F72085F41D00DE6CCB /* Carthage___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Carthage___Tests.m"; sourceTree = "<group>"; };
+		4241D1F92085F41D00DE6CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4241D1FE2085F41D00DE6CCB /* Carthage的使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carthage的使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4241D2022085F41D00DE6CCB /* Carthage___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Carthage___UITests.m"; sourceTree = "<group>"; };
+		4241D2042085F41D00DE6CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4241D22020870EA800DE6CCB /* Carthage的使用 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Carthage的使用 copy-Info.plist"; path = "/Users/YTO/Desktop/Carthage的使用/Carthage的使用 copy-Info.plist"; sourceTree = "<absolute>"; };
+		4241D2242088225A00DE6CCB /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4241D1D82085F41C00DE6CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4241D2252088225A00DE6CCB /* AFNetworking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4241D1F02085F41D00DE6CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4241D1FB2085F41D00DE6CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4241D1D22085F41B00DE6CCB = {
+			isa = PBXGroup;
+			children = (
+				4241D1DD2085F41C00DE6CCB /* Carthage的使用 */,
+				4241D1F62085F41D00DE6CCB /* Carthage的使用Tests */,
+				4241D2012085F41D00DE6CCB /* Carthage的使用UITests */,
+				4241D1DC2085F41C00DE6CCB /* Products */,
+				4241D22020870EA800DE6CCB /* Carthage的使用 copy-Info.plist */,
+				4241D2232088225900DE6CCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4241D1DC2085F41C00DE6CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4241D1DB2085F41C00DE6CCB /* Carthage的使用.app */,
+				4241D1F32085F41D00DE6CCB /* Carthage的使用Tests.xctest */,
+				4241D1FE2085F41D00DE6CCB /* Carthage的使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4241D1DD2085F41C00DE6CCB /* Carthage的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				4241D1DE2085F41C00DE6CCB /* AppDelegate.h */,
+				4241D1DF2085F41C00DE6CCB /* AppDelegate.m */,
+				4241D1E12085F41C00DE6CCB /* ViewController.h */,
+				4241D1E22085F41C00DE6CCB /* ViewController.m */,
+				4241D1E42085F41C00DE6CCB /* Main.storyboard */,
+				4241D1E72085F41C00DE6CCB /* Assets.xcassets */,
+				4241D1E92085F41C00DE6CCB /* LaunchScreen.storyboard */,
+				4241D1EC2085F41C00DE6CCB /* Info.plist */,
+				4241D1ED2085F41C00DE6CCB /* main.m */,
+			);
+			path = "Carthage的使用";
+			sourceTree = "<group>";
+		};
+		4241D1F62085F41D00DE6CCB /* Carthage的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4241D1F72085F41D00DE6CCB /* Carthage___Tests.m */,
+				4241D1F92085F41D00DE6CCB /* Info.plist */,
+			);
+			path = "Carthage的使用Tests";
+			sourceTree = "<group>";
+		};
+		4241D2012085F41D00DE6CCB /* Carthage的使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4241D2022085F41D00DE6CCB /* Carthage___UITests.m */,
+				4241D2042085F41D00DE6CCB /* Info.plist */,
+			);
+			path = "Carthage的使用UITests";
+			sourceTree = "<group>";
+		};
+		4241D2232088225900DE6CCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4241D2242088225A00DE6CCB /* AFNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4241D1DA2085F41C00DE6CCB /* Carthage的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4241D2072085F41D00DE6CCB /* Build configuration list for PBXNativeTarget "Carthage的使用" */;
+			buildPhases = (
+				4241D1D72085F41C00DE6CCB /* Sources */,
+				4241D1D82085F41C00DE6CCB /* Frameworks */,
+				4241D1D92085F41C00DE6CCB /* Resources */,
+				4241D22220870ECE00DE6CCB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carthage的使用";
+			productName = "Carthage的使用";
+			productReference = 4241D1DB2085F41C00DE6CCB /* Carthage的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4241D1F22085F41D00DE6CCB /* Carthage的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4241D20A2085F41D00DE6CCB /* Build configuration list for PBXNativeTarget "Carthage的使用Tests" */;
+			buildPhases = (
+				4241D1EF2085F41D00DE6CCB /* Sources */,
+				4241D1F02085F41D00DE6CCB /* Frameworks */,
+				4241D1F12085F41D00DE6CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4241D1F52085F41D00DE6CCB /* PBXTargetDependency */,
+			);
+			name = "Carthage的使用Tests";
+			productName = "Carthage的使用Tests";
+			productReference = 4241D1F32085F41D00DE6CCB /* Carthage的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4241D1FD2085F41D00DE6CCB /* Carthage的使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4241D20D2085F41D00DE6CCB /* Build configuration list for PBXNativeTarget "Carthage的使用UITests" */;
+			buildPhases = (
+				4241D1FA2085F41D00DE6CCB /* Sources */,
+				4241D1FB2085F41D00DE6CCB /* Frameworks */,
+				4241D1FC2085F41D00DE6CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4241D2002085F41D00DE6CCB /* PBXTargetDependency */,
+			);
+			name = "Carthage的使用UITests";
+			productName = "Carthage的使用UITests";
+			productReference = 4241D1FE2085F41D00DE6CCB /* Carthage的使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4241D1D32085F41B00DE6CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CQ;
+				TargetAttributes = {
+					4241D1DA2085F41C00DE6CCB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					4241D1F22085F41D00DE6CCB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4241D1DA2085F41C00DE6CCB;
+					};
+					4241D1FD2085F41D00DE6CCB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4241D1DA2085F41C00DE6CCB;
+					};
+				};
+			};
+			buildConfigurationList = 4241D1D62085F41B00DE6CCB /* Build configuration list for PBXProject "Carthage的使用" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4241D1D22085F41B00DE6CCB;
+			productRefGroup = 4241D1DC2085F41C00DE6CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4241D1DA2085F41C00DE6CCB /* Carthage的使用 */,
+				4241D1F22085F41D00DE6CCB /* Carthage的使用Tests */,
+				4241D1FD2085F41D00DE6CCB /* Carthage的使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4241D1D92085F41C00DE6CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4241D1EB2085F41C00DE6CCB /* LaunchScreen.storyboard in Resources */,
+				4241D1E82085F41C00DE6CCB /* Assets.xcassets in Resources */,
+				4241D1E62085F41C00DE6CCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4241D1F12085F41D00DE6CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4241D1FC2085F41D00DE6CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4241D22220870ECE00DE6CCB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AFNetworking.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/Carthage copy-frameworks\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4241D1D72085F41C00DE6CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4241D1E32085F41C00DE6CCB /* ViewController.m in Sources */,
+				4241D1EE2085F41C00DE6CCB /* main.m in Sources */,
+				4241D1E02085F41C00DE6CCB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4241D1EF2085F41D00DE6CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4241D1F82085F41D00DE6CCB /* Carthage___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4241D1FA2085F41D00DE6CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4241D2032085F41D00DE6CCB /* Carthage___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4241D1F52085F41D00DE6CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4241D1DA2085F41C00DE6CCB /* Carthage的使用 */;
+			targetProxy = 4241D1F42085F41D00DE6CCB /* PBXContainerItemProxy */;
+		};
+		4241D2002085F41D00DE6CCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4241D1DA2085F41C00DE6CCB /* Carthage的使用 */;
+			targetProxy = 4241D1FF2085F41D00DE6CCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4241D1E42085F41C00DE6CCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4241D1E52085F41C00DE6CCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4241D1E92085F41C00DE6CCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4241D1EA2085F41C00DE6CCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4241D2052085F41D00DE6CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4241D2062085F41D00DE6CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4241D2082085F41D00DE6CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Carthage的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appDev.MrFay.Carthage---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4241D2092085F41D00DE6CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Carthage的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appDev.MrFay.Carthage---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4241D20B2085F41D00DE6CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Carthage的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appDev.MrFay.Carthage---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carthage的使用.app/Carthage的使用";
+			};
+			name = Debug;
+		};
+		4241D20C2085F41D00DE6CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Carthage的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appDev.MrFay.Carthage---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carthage的使用.app/Carthage的使用";
+			};
+			name = Release;
+		};
+		4241D20E2085F41D00DE6CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Carthage的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appDev.MrFay.Carthage---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Carthage的使用";
+			};
+			name = Debug;
+		};
+		4241D20F2085F41D00DE6CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Carthage的使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appDev.MrFay.Carthage---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Carthage的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4241D1D62085F41B00DE6CCB /* Build configuration list for PBXProject "Carthage的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4241D2052085F41D00DE6CCB /* Debug */,
+				4241D2062085F41D00DE6CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4241D2072085F41D00DE6CCB /* Build configuration list for PBXNativeTarget "Carthage的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4241D2082085F41D00DE6CCB /* Debug */,
+				4241D2092085F41D00DE6CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4241D20A2085F41D00DE6CCB /* Build configuration list for PBXNativeTarget "Carthage的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4241D20B2085F41D00DE6CCB /* Debug */,
+				4241D20C2085F41D00DE6CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4241D20D2085F41D00DE6CCB /* Build configuration list for PBXNativeTarget "Carthage的使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4241D20E2085F41D00DE6CCB /* Debug */,
+				4241D20F2085F41D00DE6CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4241D1D32085F41B00DE6CCB /* Project object */;
+}
