@@ -12,9 +12,9 @@ Carthage和cocoapods区别
 * Cocoapods有一个中心仓库，而Carthage是去中心化的，没有中心服务器也就避免了可能因中心节点错误而带来的失败，即Carthage每次配置和更新环境，只会去更新具体的库，时间更快
 * 想让自己的第三方库支持Carthage比让其支持cocoapods更加的简单
 * Carthage存在的一些缺陷
-* * 库依然不如CocoaPods丰富
-* * 仅支持iOS8+
-* * 在使用第三方库的过程中无法查看源码总结：
+    * 库依然不如CocoaPods丰富
+    * 仅支持iOS8+
+    * 在使用第三方库的过程中无法查看源码总结：
 
 cocoapods的方法更容易使用，而Carthage更灵活且对项目没有侵入性
 
@@ -23,11 +23,11 @@ Carthage安装
 
 * 直接下载Carthage.pkg安装包，安装运行
 * 如果使用的Xcode7.0+版本，那么可以使用下面的方法来安装
-    * *  安装home-brew
+     *  安装home-brew
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    * * 升级brew
+     * 升级brew
 $ brew update
-    * * 使用brew来安装
+     * 使用brew来安装
 $ brew install Carthage
 ![image](https://github.com/cq1402272764/Carthage/blob/master/Res/0.png)
 
